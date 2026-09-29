@@ -3,12 +3,52 @@
 Мобильное приложение на **Kotlin + Jetpack Compose**, в котором ребёнок 7–11 лет учится управлять личными финансами через заботу о виртуальном питомце.
 
 > 🚀 **Быстрые ссылки:**
+> [📦 Скачать APK](https://disk.yandex.ru/d/xmWKipyVSqyOCw) ·
 > [📖 О проекте](#-о-проекте) ·
 > [🎮 Что реализовано](#-что-реализовано) ·
 > [🎬 Демо-режим](#-как-включить-демонстрационный-режим) ·
-> [📊 Презентация](presentation/Finnyspet-Presentation.pdf) ·
+> [📊 Презентация](presentation/Finnyspet-Presentation) ·
 > [🚀 Как запустить](#-как-собрать-и-запустить) ·
 > [💻 Исходный код](app/src/main/java/com/example/finnyspet)
+
+---
+
+## 📦 Готовый прототип (APK)
+
+**👉 [Скачать APK с Яндекс.Диска](https://disk.yandex.ru/d/xmWKipyVSqyOCw)**
+
+Готовый подписанный APK приложения. Собран из ветки `main`, протестирован на физическом Android-устройстве.
+
+### Как скачать APK с Яндекс.Диска
+
+1. Откройте ссылку выше — откроется страница Яндекс.Диска с файлом `app-release.apk`.
+2. Нажмите кнопку **«Скачать»** — файл загрузится на ваше устройство.
+3. Если скачивание не начинается автоматически, нажмите **«Скачать»** ещё раз или выберите **«Сохранить на Диск»**, а затем — **«Скачать»**.
+
+### Как установить APK на телефон
+
+1. Откройте скачанный файл `app-release.apk` в файловом менеджере телефона.
+2. Если появится предупреждение — разрешите установку из неизвестных источников:
+   **Настройки → Безопасность → Разрешить установку из неизвестных источников**.
+3. Нажмите **«Установить»** → дождитесь завершения.
+4. Приложение появится в списке приложений под названием **«Finnyspet»** или **«Финниспет»**.
+
+### Системные требования
+
+| Параметр | Значение |
+|---|---|
+| Минимальная версия Android | 8.0 (API 26) |
+| Целевая версия | Android 14 (API 34) |
+| Ориентация | Портретная |
+| Интернет | Не требуется (полностью офлайн) |
+| Разрешения | Не запрашиваются |
+| Размер APK | ≈ 5–10 МБ |
+
+### Проверка подлинности APK
+
+- **Подпись:** V1 + V2 (JAR и APK Signature Scheme v2).
+- **Package name:** `com.example.finnyspet`.
+- **Версия:** `1.0` (`versionCode = 1`).
 
 ---
 
@@ -196,6 +236,14 @@
    - Подключите телефон (с отладкой по USB) **или** запустите эмулятор.
    - Нажмите **▶ Run** (Shift + F10).
 
+### Как собрать APK самостоятельно
+
+1. **Build → Generate Signed Bundle or APK…**
+2. Выберите **APK** → **Next**.
+3. Укажите ключ подписи (или создайте новый через **Create new…**).
+4. **Next** → выберите **release** → отметьте **V1** и **V2** → **Finish**.
+5. Готовый APK появится в `app/release/app-release.apk`.
+
 ---
 
 ## 📁 Структура проекта
@@ -235,6 +283,7 @@ app/src/main/java/com/example/finnyspet/
 
 | Что | Ссылка |
 |---|---|
+| 📦 **Готовый APK** | [Скачать с Яндекс.Диска](https://disk.yandex.ru/d/xmWKipyVSqyOCw) |
 | 🎬 **Открыть презентацию** | [Finnyspet-Presentation](presentation/Finnyspet-Presentation) |
 | 📁 **Папка презентации** | [presentation/](presentation) |
 | 📖 **README** | [README.md](README.md) |
@@ -280,13 +329,13 @@ start Finnyspet-Presentation
 | Раздел | Ссылка |
 |---|---|
 | 📌 **Репозиторий** | [github.com/VKS55/Finnyspet](https://github.com/VKS55/Finnyspet) |
+| 📦 **Готовый APK** | [Скачать с Яндекс.Диска](https://disk.yandex.ru/d/xmWKipyVSqyOCw) |
 | 🎬 **Презентация** | [presentation/Finnyspet-Presentation](presentation/Finnyspet-Presentation) |
 | 💻 **Исходный код** | [app/src/main/java/com/example/finnyspet](app/src/main/java/com/example/finnyspet) |
 | 📋 **Задачи (Issues)** | [github.com/VKS55/Finnyspet/issues](https://github.com/VKS55/Finnyspet/issues) |
 | ⚙️ **Сборка** | [app/build.gradle.kts](app/build.gradle.kts) |
 
 ---
-
 
 ## 👥 Команда
 

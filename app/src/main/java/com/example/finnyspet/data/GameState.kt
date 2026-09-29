@@ -1,0 +1,32 @@
+package com.example.finnyspet.data
+
+data class GameState(
+    val petId: String? = null,
+    val petName: String = "Питомец",
+    val coins: Int = 50,
+    val walletSpend: Int = 0,
+    val walletGoal: Int = 0,
+    val walletCushion: Int = 0,
+    val food: Float = 100f,
+    val mood: Float = 100f,
+    val energy: Float = 100f,
+    val health: Float = 100f,
+    val progress: Int = 0,
+    val streak: Int = 0,
+    val weekEarned: Int = 0,
+    val weekSpent: Int = 0,
+    val weekSaved: Int = 0,
+    val weekTasks: Int = 0,
+    val unallocated: Int = 0,
+    val lastTick: Long = System.currentTimeMillis(),
+    val lastLogin: String = "",
+    val foodTriggered90: Boolean = false,
+    val dreamsOwned: String = "",
+    val currentDreamId: String = "",
+    val activeHourlyIds: String = "",
+    val activeDailyIds: String = "",
+    val activeWeeklyIds: String = "",
+    val doneTaskIds: String = "",
+    val nextHourAt: Long = 0L,
+    val demoShowAllTasks: Boolean = false
+)

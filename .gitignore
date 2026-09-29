@@ -1,0 +1,20 @@
+# Сборка
+/build
+/app/build
+
+# Локальные настройки Gradle
+local.properties
+
+# IDE (Android Studio)
+.idea/
+*.iml
+
+# Ключи подписи (КРИТИЧНО — не выкладывать!)
+*.jks
+*.keystore
+
+# Разное
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
